@@ -71,6 +71,7 @@ body{
   background-size:cover;
   background-radius:3px;
   padding:50px;
+  text-align: center;
   
 }
 
@@ -182,18 +183,19 @@ body{
 }
 .footer{
 background:#000;
-padding:10px 0px;
+padding:30px ;
 font-family: 'Play', sans-serif;
 text-align:center;  width:100%;
  position:fixed;
  bottom:0;
+ left:0;
  
 }
 
 .footer .row{
  
 width:100%;
-margin:1% 0%;
+margin:0%;
 padding: 0%;
 color:gray;
 font-size:0.8em;
@@ -221,8 +223,3 @@ font-size:2em;
 margin:0% 1%;
 }
 
-@media (max-width:720px){
-.footer{
-text-align:left;
-padding:2%;
-}
